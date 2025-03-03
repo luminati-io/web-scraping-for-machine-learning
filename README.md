@@ -100,7 +100,7 @@ https://finance.yahoo.com/quote/NVDA/history/?frequency=1d&period1=1574082848&pe
 
 Now you have to target the following table and retrieve the data from it:
 
-![Table with daily financial data like open and close price, low, high, and more](https://brightdata.com/wp-content/uploads/2024/11/image-54-1024x300.png)
+![Table with daily financial data like open and close price, low, high, and more](https://github.com/luminati-io/web-scraping-for-machine-learning/blob/main/images/image-54.png)
 
 The CSS selector that defines the table is `.table` so you can write the following code in the `data_retrieval.py` file:
 
@@ -273,7 +273,7 @@ python3 data_retrieval.py
 
 Here is how the output scraped data appears:
 
-![The output of the scraped table](https://brightdata.com/wp-content/uploads/2024/11/image-55.png)
+![The output of the scraped table](https://github.com/luminati-io/web-scraping-for-machine-learning/blob/main/images/image-55.png)
 
 ## Using Machine Learning on Scraped Data
 
@@ -295,7 +295,7 @@ jupyter notebook
 
 When the browser is open, click on **New > Python3 (ipykernel)** to create a new Jupyter Notebook file:
 
-![Creating a new Jupyter Notebook file](https://brightdata.com/wp-content/uploads/2024/11/image-56.png)
+![Creating a new Jupyter Notebook file](https://github.com/luminati-io/web-scraping-for-machine-learning/blob/main/images/image-56.png)
 
 Rename the file to `analysis.ipynb`.
 
@@ -320,7 +320,7 @@ This code goes to the `data/` folder with `csv_path = "../data/nvda_stock_data.c
 
 This is the expected result:
 
-![The expected result](https://brightdata.com/wp-content/uploads/2024/11/image-57.png)
+![The expected result](https://github.com/luminati-io/web-scraping-for-machine-learning/blob/main/images/image-57.png)
 
 ### Step #3: Visualize the trend over time of the `Adj Close` value
 
@@ -361,7 +361,7 @@ The above code does the following:
 
 The expected result is something like that:
 
-![NVDA stock adjusted close prices over time example](https://brightdata.com/wp-content/uploads/2024/11/image-58-1024x596.png)
+![NVDA stock adjusted close prices over time example](https://github.com/luminati-io/web-scraping-for-machine-learning/blob/main/images/image-58.png)
 
 This plot shows the actual trend of the adjusted closed values over time of the NVIDIA stocks values. The machine learning model you will be training will have to predict them as best as it can.
 
@@ -480,7 +480,7 @@ This code does the following:
 
 Statistical errors are possible due to the stochastical nature of ML models. Here is the expected result:
 
-![Expected result considering the statistical errors](https://brightdata.com/wp-content/uploads/2024/11/image-59.png)
+![Expected result considering the statistical errors](https://github.com/luminati-io/web-scraping-for-machine-learning/blob/main/images/image-59.png)
 
 These results indicate that the model is good to predict the `Adj Close`.
 
@@ -516,7 +516,7 @@ This code:
 
 The expected result is something like this:
 
-![Actual vs predicted adjusted close prices ](https://brightdata.com/wp-content/uploads/2024/11/image-60-1024x493.png)
+![Actual vs predicted adjusted close prices ](https://github.com/luminati-io/web-scraping-for-machine-learning/blob/main/images/image-60.png)
 
 As the plot illustrates, the LSTM neural network's predicted values (yellow dotted line) closely match the actual values (solid blue line). While the analytical results were promising, the visualization further confirms their accuracy.
 
