@@ -2,7 +2,7 @@
 
 [![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/) 
 
-This guide explains how to collect, prepare, and use web-scraped data for machine learning projects, including ETL setup and model training tips.
+This guide explains how to collect, prepare, and use web-scraped data for machine learning projects, including [ETL](https://brightdata.com/blog/proxy-101/etl-pipeline) setup and model training tips. Before you proceed further, we recommend you get more familiar with Python web scraping. 
 
 - [Performing Scraping for Machine Learning](#performing-scraping-for-machine-learning)
 - [Using Machine Learning on Scraped Data](#using-machine-learning-on-scraped-data)
